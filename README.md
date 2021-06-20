@@ -1,3 +1,8 @@
+### hackerman linux dwm
+This is a fork of [suckless dwm](http://suckless.org/dwm) made to look like the ultimate hackerman desktop.
+
+### Standard dwm README
+```
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
@@ -36,13 +41,14 @@ In order to display status info in the bar, you can do something
 like this in your .xinitrc:
 
     while xsetroot -name "`date` `uptime | sed 's/.*,//'`"
-    do
-    	sleep 1
-    done &
-    exec dwm
+        do
+		sleep 1
+		    done &
+		        exec dwm
 
 
 Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+```
