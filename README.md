@@ -2,7 +2,7 @@
 
 ![dwm](https://github.com/That1M8Head/dwm-hackerman/raw/main/dwm.png)
 
-This is a fork of [suckless dwm](http://suckless.org/dwm) made to look like the ultimate hackerman desktop.
+This is a fork of [suckless dwm](http://dwm.suckless.org/) made to look like the ultimate hackerman desktop.
 
 You need to either install the [Source Code Pro](https://fonts.adobe.com/fonts/source-code-pro) font or edit `config.h` with your choice of font and recompile.
 
