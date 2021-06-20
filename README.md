@@ -1,4 +1,4 @@
-### hackerman linux dwm
+## hackerman linux dwm
 This is a fork of [suckless dwm](http://suckless.org/dwm) made to look like the ultimate hackerman desktop.
 
 ### Standard dwm README
