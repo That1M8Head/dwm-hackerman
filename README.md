@@ -4,6 +4,8 @@
 
 This is a fork of [suckless dwm](http://suckless.org/dwm) made to look like the ultimate hackerman desktop.
 
+You need to either install the [Source Code Pro](https://fonts.adobe.com/fonts/source-code-pro) font or edit `config.h` with your choice of font and recompile.
+
 ### Standard dwm README
 ```
 dwm - dynamic window manager
@@ -44,10 +46,10 @@ In order to display status info in the bar, you can do something
 like this in your .xinitrc:
 
     while xsetroot -name "`date` `uptime | sed 's/.*,//'`"
-        do
-		sleep 1
-		    done &
-		        exec dwm
+    do
+	sleep 1
+    done &
+    exec dwm
 
 
 Configuration
